@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    background-color: #dcdcdc;
+}
+
+#notification {
+    display: none;
+    padding: 25px;
+    margin: 5px;
+    background-color: whitesmoke;
+}
+
+#game {
+    text-align: center;
+    border-radius: 3px;
+    margin: 0 30vw;
+    padding: 2vh 5vw;
+}
+
+#startDiv {
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2, h3 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#playersList h3 {
+    display: inline-block;
+}
+
+#dices {
+    background-color: whitesmoke;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    padding: 32px 25%;
+    width: 130px;
+    height: 64px;
+}
+
+#diceAmountDiv h3 {
+    margin-right: 2px;
+}
+
+#gamScoreDiv, #gameScreenDiv, #buttonsDiv {
+    margin: 0 4vw;
+}
+
+#gameScreenDiv {
+    text-align: center;
+}
+
+#gameScreenDiv button {
+    width: 10vw;
+    height: 5vh;
+}
+
+button, select {
+    margin: 0 2px;
+}
+
+#inputName {
+    margin: 0 2px;
+}
+
+#ready {
+    width: 180px;
+    height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vh;
+    margin-bottom: 2px;
+}
+
+#changePlayer {
+    margin-bottom: 6vh;
+}
+#winDiv {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    #game {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 968px) {
+    #buttonsDiv button {
+        display: inline-block;
+        width: 25vw;
+        height: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #changePlayer {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #buttonsDiv button {
+        display: inline-block;
+        width: 20vw;
+        height: 15vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #game {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+}
